@@ -14,7 +14,7 @@ const BellIcon = (style) => (
   <Icon {...style} name='bell-outline' />
 );
 
-export const TabBarWithIconShowcase = () => {
+export const ModeField = () => {
 
   const [topTabsIndex, setTopTabsIndex] = React.useState(0);
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Input } from '@ui-kitten/components';
 import { StyleSheet } from 'react-native';
 
-export const InputSimpleUsageShowcase = () => {
+export const InputField = () => {
 
   const [value, setValue] = React.useState('');
 

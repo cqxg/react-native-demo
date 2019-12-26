@@ -1,14 +1,14 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
 import {
     Layout,
     Select,
 } from '@ui-kitten/components';
 
+import { StyleSheet } from 'react-native';
+
 const data = [
-    { text: 'Option 1' },
-    { text: 'Option 2' },
-    { text: 'Option 3' },
+    { text: 'English' },
+    { text: 'Russian' },
 ];
 
 export const ButtonField = () => {
@@ -33,6 +33,10 @@ export const ButtonField = () => {
 
 const styles = StyleSheet.create({
     container: {
-        minHeight: 228,
+        flex: 0.1,
+        flexDirection: 'row',
+        justifyContent: 'center', 
+        alignItems: 'center',
+        minHeight: 228, 
     },
 });

@@ -6,6 +6,8 @@ import {
   TabBar,
 } from '@ui-kitten/components';
 
+import { StyleSheet } from 'react-native';
+
 const PersonIcon = (style) => (
   <Icon {...style} name='person-outline' />
 );
@@ -19,7 +21,7 @@ export const ModeField = () => {
   const [topTabsIndex, setTopTabsIndex] = React.useState(0);
 
   return (
-    <Layout>
+    <Layout style={styles.container}>
 
       <TabBar
         selectedIndex={topTabsIndex}
@@ -31,3 +33,11 @@ export const ModeField = () => {
     </Layout>
   );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 0.2,
+        flexDirection: 'row',
+        alignItems: 'center' 
+    },
+});

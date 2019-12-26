@@ -9,7 +9,7 @@ import { ButtonField } from './components/ButtonField/Button';
 import { ModeField } from './components/ModeField/Mode';
 
 const HomeScreen = () => (
-    <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <Layout style={{ justifyContent: 'center', alignItems: 'center' }}>
         <TextField />
         <InputField />
         <ButtonField />

@@ -9,8 +9,7 @@ export const TextField = () => (
 
 const styles = StyleSheet.create({
     container: {
-        flex: 4,
-        justifyContent: 'center', 
-        alignItems: 'center' 
+        height: 400,
+        marginTop: 50
     },
 });

@@ -33,10 +33,7 @@ export const ButtonField = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.1,
-        flexDirection: 'row',
-        justifyContent: 'center', 
-        alignItems: 'center',
-        minHeight: 228, 
     },
+    select: {
+    }
 });

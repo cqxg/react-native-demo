@@ -19,6 +19,5 @@ export const InputField = () => {
 
 const styles = StyleSheet.create({
     input: {
-      margin: 8,
     },
-  });
+});

@@ -36,8 +36,6 @@ export const ModeField = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.2,
-        flexDirection: 'row',
-        alignItems: 'center' 
+
     },
 });
